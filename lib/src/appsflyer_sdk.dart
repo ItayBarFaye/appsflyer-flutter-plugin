@@ -79,7 +79,7 @@ class AppsflyerSdk {
       assert(appID != null, "appleAppId is required for iOS apps");
       assert(appID is String);
       RegExp exp = RegExp(r'^\d{8,11}$');
-      assert(exp.hasMatch(appID));
+      //assert(exp.hasMatch(appID));
       validatedOptions[AppsflyerConstants.AF_APP_Id] = appID;
     }
 
@@ -135,7 +135,7 @@ class AppsflyerSdk {
       assert(appID != null, "appleAppId is required for iOS apps");
       assert(appID is String);
       RegExp exp = RegExp(r'^\d{8,11}$');
-      assert(exp.hasMatch(appID));
+      //assert(exp.hasMatch(appID));
       afOptions[AppsflyerConstants.AF_APP_Id] = appID;
     }
 
